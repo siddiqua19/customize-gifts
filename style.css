@@ -557,3 +557,11 @@ header .bar {
         display: none;
     }
 }
+@media (max-width:1020){
+    .products .box-container .box .image img{
+        width: 217px;
+    }
+
+
+
+}
