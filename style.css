@@ -557,7 +557,7 @@ header .bar {
         display: none;
     }
 }
-@media (max-width:1020){
+@media (max-width:900){
     .products .box-container .box .image img{
         width: 217px;
     }
