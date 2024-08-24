@@ -11,7 +11,7 @@
     border: none;
     text-transform: capitalize;
     transition: .2s linear;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lora", serif;
 }
 
 html {
@@ -41,10 +41,12 @@ section {
     max-width: 50rem;
 }
 
-.home .content h3 {
-    font-size: 6rem;
-    font-family: math;
+.home .content h1 {
+    font-optical-sizing: auto;
+    font-weight: 486;
+    font-style: normal;
     color: #333333;
+    font-size: 56px;
 }
 
 .home .content p {
@@ -434,7 +436,7 @@ header .bar {
 
 .footer .box-container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 1.5rem;
 }
 
@@ -524,8 +526,8 @@ header .bar {
         display: block;
     }
 
-    .home .content h3 {
-        font-size: 5rem;
+    .home .content h1 {
+        font-size: 44px;
     }
 
     .icons-container .icon h3 {
@@ -540,7 +542,7 @@ header .bar {
 
 }
 
-@media (max-width:450) {
+@media (max-width:450px) {
     html {
         font-size: 50%;
     }
@@ -548,16 +550,29 @@ header .bar {
     .heading {
         font-size: 3rem;
     }
+    .footer .box-container .box a {
+        display: flex;
+        color: #666;
+        font-size: 1em;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    header .icons{
+        display: none;
+    }
+    .logo1{
+        margin-right: 60px;
+    }
 
 
 }
 
-@media (max-width:300) {
+@media (max-width:300px) {
     .icons a {
         display: none;
     }
 }
-@media (max-width:900){
+@media (max-width:900px){
     .products .box-container .box .image img{
         width: 217px;
     }
